@@ -1,4 +1,4 @@
-// khan acedemy's pseudocode
+// khan academy's pseudocode
 
 // If the string is made of no letters or just one letter, then it is a palindrome.
 // Otherwise, compare the first and last letters of the string.
@@ -22,4 +22,4 @@ const isStringPalindrome = (str) => {
 }
 
 // here two base cases used, there is a recursion with one base case, but with && operator in the recursive case
-// refer to ownn fcc solution for this
+// refer to own fcc solution for this
