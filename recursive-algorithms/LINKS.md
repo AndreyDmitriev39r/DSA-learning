@@ -34,5 +34,8 @@ https://www.geeksforgeeks.org/tail-vs-non-tail-recursion/
 
 https://www.youtube.com/watch?v=oBt53YbR9Kk&t
 
+### recursive art ideas to practice on
 
-
+http://en.wikipedia.org/wiki/Koch_snowflake
+https://en.wikipedia.org/wiki/L-system
+https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/pp/project-recursive-art
