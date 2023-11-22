@@ -12,3 +12,6 @@ https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-not
 https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-omega-notation
 
 
+### divide and conquer paradigm
+
+https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms
