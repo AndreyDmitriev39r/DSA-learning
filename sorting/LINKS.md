@@ -12,6 +12,12 @@ https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/o
 
 https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/linear-time-merging
 
+### quick sort overview && linear-time partitioning algo
+
+https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
+
+https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/linear-time-partitioning
+
 ### fcc sorting challenges
 
 https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-selection-sort
