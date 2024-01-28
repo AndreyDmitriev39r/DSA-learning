@@ -1,20 +1,19 @@
-// khan's version of linear-merging for sorted subarrays, !!! solved but unrefactored to modern JS
+// linear merging of two sorted subarrays
 
 // Takes in an array that has two sorted subarrays,
 //  from [p..q] and [q+1..r], and merges the array
-var merge = function(array, p, q, r) {
-  var lowHalf = [];
-  var highHalf = [];
+const merge = (array, p, q, r) => {
+  const lowHalf = [];
+  const highHalf = [];
 
-  var k = p;
-  var i;
-  var j;
-  for (i = 0; k <= q; i++, k++) {
+  let k = p;
+  
+  for (let i = 0; k <= q; i++, k++) {
       lowHalf[i] = array[k];
   }
-  for (j = 0; k <= r; j++, k++) {
+  for (let j = 0; k <= r; j++, k++) {
       highHalf[j] = array[k];
-  }
+  }  
 
   k = p;
   i = 0;
@@ -49,18 +48,18 @@ var merge = function(array, p, q, r) {
   }
 };
 
-// khan academy's version of main merge sort function
+// main
 
-var mergeSort = function(array, p, r) {
+const mergeSort = (array, p, r) => {
   if (p < r) {
-  var q = Math.floor((r + p) / 2);
-  mergeSort(array, p, q);
-  mergeSort(array, q + 1, r);
-  merge(array, p, q, r);
+    const q = Math.floor((r + p) / 2);
+    mergeSort(array, p, q);
+    mergeSort(array, q + 1, r);
+    merge(array, p, q, r);
   }
 };
 
-// test cases
+// tests
 
 const tests = [
   [],
